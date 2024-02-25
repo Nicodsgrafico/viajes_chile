@@ -17,8 +17,7 @@
 }
 
 .bg-white.scrolled {
-    background: #0ccaef !important;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: #000 !important;
 }
 
 .navbar-brand img {
@@ -31,4 +30,16 @@ main {
 
 .plane-back{
     background-color:#0ccaef ;
+}
+.card-body{
+    background-color: #0ccaef;
+}
+.card-img-top{
+    height: 198px!important;
+}
+footer{
+    background-color: #0ccaef;
+}
+.redes i{
+        
 }
