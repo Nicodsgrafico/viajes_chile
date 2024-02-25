@@ -81,7 +81,7 @@
                         <div class="plane-back ">
                             <i class="fa-solid fa-plane fa-2x"></i>
                         </div>
-                        <p class="text-start pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem atque excepturi obcaecati culpa perspiciatis quibusdam laboriosam possimus, porro exercitationem ab in assumenda aperiam sapiente illum cupiditate. Fugiat dolorum, quis vel laudantium natus placeat quo officia magnam neque necessitatibus molestias, ipsum omnis quas voluptas recusandae earum. Inventore sunt nostrum maxime nam tempore, quia laudantium quae perspiciatis accusantium, commodi aliquam esse. Sed in, impedit possimus minus facere fuga optio, inventore itaque, praesentium quo atque necessitatibus quia laudantium molestiae! Assumenda illo officia autem libero porro!</p>
+                        <p class="text-start pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem atque excepturi obcaecati culpa perspiciatis quibusdam laboriosam possimus, porro <a href="#section-featured" data-bs-toggle="tooltip" data-bs-title="Ir a sección destacados" class="text-info">exercitationem</a> ab in assumenda aperiam sapiente illum cupiditate. Fugiat dolorum, quis vel laudantium natus placeat quo officia magnam neque necessitatibus molestias, ipsum omnis quas voluptas recusandae earum. Inventore sunt nostrum maxime nam tempore, quia laudantium quae perspiciatis accusantium, commodi aliquam esse. Sed in, impedit possimus minus facere fuga optio, inventore itaque, praesentium quo atque necessitatibus quia laudantium molestiae! Assumenda illo officia autem libero porro!</p>
                     </div>
                     <div class="mountain col">
                         <p class="pb-2 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam rem quas exercitationem vitae totam itaque, blanditiis perferendis aliquam molestias porro, eum voluptatum. Nemo, non sapiente quod maiores excepturi sint. Tenetur officiis vero reprehenderit iure numquam. Architecto quis excepturi amet at labore! Officia aspernatur incidunt natus, perspiciatis autem praesentium, molestiae error eos eligendi sint non laudantium mollitia tempore modi nihil dolorum, expedita labore? Dicta tenetur sed placeat quas illo, doloribus dolorem quisquam, quidem esse incidunt, voluptas qui blanditiis porro! Sed est ipsum quaerat.</p>
@@ -161,14 +161,16 @@
                         <label for="floatingTextarea" class="form-label">Mensaje</label>
                         <textarea class="form-control "  id="floatingTextarea"></textarea>
                       </div>
-                    <button type="submit" class="btn btn-contact mt-4 text-white">Enviar</button>
+                    <button type="button" class="btn btn-contact mt-4  mb-4 text-white" id="liveAlertBtn">Enviar</button>
+                      <div id="liveAlertPlaceholder"></div>
                   </form>
             </div>
         </section>
     </main>
-    <footer class="px-5 py-3">
+    <!--Footer-->
+    <footer class=" px-0 px-lg-5 py-3">
         <div class="container d-flex justify-content-around px-3 align-items-center">
-            <h4 class="m-0 text-white">VIAJES CHILE</h4>
+            <h4 class="m-0 text-white fs-4 fw-light">VIAJES CHILE</h4>
             <div class="d-flex align-items-center">
                 <a href="https://github.com/">
                     <i class="fa-brands fa-2x fa-square-github text-white mx-2" ></i>
@@ -185,11 +187,14 @@
             </div>
         </div>
     </footer>
+    <!--Bootstrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+        <!--Jquery-->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <!--JS Custom-->
     <script src="assets/js/interaction.js"></script>
 </body>
 
