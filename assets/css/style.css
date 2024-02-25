@@ -1,9 +1,9 @@
 /* Importe de fuente roboto */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Reseteo y fuentes */
 *{
-    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -40,6 +40,14 @@ main {
 footer{
     background-color: #0ccaef;
 }
-.redes i{
-        
+
+textarea{
+    height: 400px;
+}
+.btn-contact{
+    background-color: #0ccaef;
+}
+
+.btn-contact:hover{
+    background-color: #6ddcf2;
 }
