@@ -45,7 +45,7 @@ Aquí se encontrarán los estilos utilizados como colores y tipografía.
 
 La tipografía usada en esta página es :
 
-**ROBOTO**
+**RALEWAY**
 
 En su versión variable, insertada en el CSS a través del import :
 
